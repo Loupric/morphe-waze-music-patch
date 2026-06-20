@@ -1,13 +1,13 @@
-group = "app.template"
+group = "app.loupric"
 
 patches {
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "Loupric Patches"
+        description = "Waze + Morphe Music compatibility patches"
+        source = "https://github.com/Loupric/morphe-waze-music-patch"
+        author = "Loupric"
+        contact = "https://github.com/Loupric"
+        website = "https://github.com/Loupric/morphe-waze-music-patch"
         license = "GPLv3"
     }
 }
