@@ -5,12 +5,27 @@ Morphe patches to make **Waze** work with **Morphe Music** (the Morphe fork of Y
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.1](https://github.com/Loupric/morphe-waze-music-patch/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+<details open>
+<summary>📦 Waze&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
 
-| Patch | App | Description |
-|-------|-----|-------------|
-| Waze Morphe Music support | `com.waze` | Adds `app.morphe.android.apps.youtube.music` to Waze's `<queries>` manifest so Waze can detect Morphe Music |
-| Waze Morphe Music bytecode | `com.waze` | Injects Morphe Music into Waze's audio SDK app list so it appears as an audio source |
-| Waze compatibility (MicroG) | `com.google.android.apps.youtube.music` | Bypasses the GoogleCertificates check that crashes YouTube Music when Waze connects via MicroG |
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Waze Morphe Music bytecode](#waze-morphe-music-bytecode) | Injects Morphe Music into Waze audio SDK app list. |  |
+| [Waze Morphe Music support](#waze-morphe-music-support) | Adds Morphe Music (app.morphe.android.apps.youtube.music) to Waze audio SDK. |  |
+
+</details>
+
+<details open>
+<summary>📦 YouTube Music&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Waze compatibility (MicroG)](#waze-compatibility-microg) | Fixes crash when Waze tries to connect via MediaBrowserService on MicroG devices. |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
